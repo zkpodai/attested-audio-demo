@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'zkpod.ai - Attested Audio',
-  description: 'Attested Audio Demo',
+  title: 'zkpod.ai - Attested Audio Experiment',
+  description: 'Attested Audio Experiment',
   icons: {
     icon: '/favicon.ico',
   }

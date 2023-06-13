@@ -113,7 +113,7 @@ export default function Home() {
         <div className="flex flex-col items-center w-full">
           <div className="flex flex-col m-5 w-full items-center">
             <div className="p-4 mb-4 text-white-800 rounded-lg bg-white-50 text-center" role="alert">
-              Welcome to the attested audio demo! Read the <a href="https://medium.com/@danieldkang/fighting-ai-generated-audio-with-attested-microphones-and-zk-snarks-d6ea0fc296ac" target="_blank" className="underline">blog post</a> for more details.
+              Welcome to the attested audio experiment! Read the <a href="https://medium.com/@danieldkang/d6ea0fc296ac" target="_blank" className="underline">blog post</a> for more details and listen to the <a href="https://open.spotify.com/episode/2dIzPg3UnWlUxrQ9Y1T0Rr" target="_blank" className="underline">ZKPodcast episode</a>.
             </div>
             <div role="status" className={`justify-center items-center m-2 ${!loading && (isMobile ? 'hidden' : 'invisible') }`}>
               <svg aria-hidden="true" className="w-8 h-8 mr-2 text-gray-200 animate-spin fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
