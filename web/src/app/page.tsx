@@ -39,7 +39,7 @@ export default function Home() {
         if (event.data.action == actions.VERIFY) {
           setVerifiedProof(true);
 
-          setProgress([`Proof verification successful. Public inputs are: [${data.publicInputs.map(x => pad(BigInt(x).toString(16))).join(', ')}]`]);
+          setProgress(progress => [...progress, `Proof verification successful. Public inputs are: [${data.publicInputs.map(x => pad(BigInt(x).toString(16))).join(', ')}]`]);
         }
         if (event.data.action == actions.HASH) {
           const lastElement = pad(BigInt(data.publicInputs[data.publicInputs.length - 1]).toString(16));
